@@ -1,0 +1,43 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+ .rtc-image-upload ul li {
+    display: inline-block;
+    border: 1px solid #000;
+    margin: 10px;
+    cursor: move;
+}
+
+.rtc-image-upload span.image-preview {
+    position: relative;
+}
+.rtc-image-upload i.dashicons.dashicons-no.delete-img {
+    position: absolute;
+    background: red;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: -10px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+.rtc-image-upload .image-preview img {
+    max-width: 130px;
+    float: left;
+    height: 100px;
+    object-fit: cover;
+}
+
+.form-wrap .slider-div label {
+    display: inline-block;
+    width: auto;
+    margin-right: 10px;
+    font-weight: bold;  
+    display: inline-block;
+}
+
+.slider-div {
+    margin: 20px 15px;
+}

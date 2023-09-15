@@ -1,0 +1,55 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ 
+ .slider-posts .owl-nav button {
+  position: absolute;
+  top: 50%;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+.slider-posts .owl-nav button.owl-prev {
+  left: 0;
+}
+.slider-posts .owl-nav button.owl-next {
+  right: 0;
+}
+
+.slider-posts .owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+.slider-posts .owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 3px;
+}
+.slider-posts .owl-dots button.owl-dot.active {
+  background-color: #000;
+}
+.slider-posts .owl-dots button.owl-dot:focus {
+  outline: none;
+}
+.slider-posts .owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+.slider-posts span {
+    font-size: 70px;    
+    position: relative;
+    top: -5px;
+}
+.slider-posts .owl-nav button:focus {
+    outline: none;
+}
+.owl-carousel .owl-item img {
+  height: 400px;
+}
